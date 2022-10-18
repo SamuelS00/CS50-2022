@@ -1,0 +1,5 @@
+asks the user to enter an integer between 1 and 8, if it is not valid, we ask again;
+
+generates two loops to load the rows and columns;
+
+creates a variable called "opposite" that will have the value of a subtraction of the index of the first loop and the value of the pyramid
