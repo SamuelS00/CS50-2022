@@ -1,5 +1,3 @@
-
-
 ![126783990103](./image//readme/126783990103.png)
 
 This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web programming. Languages include C, Python, and SQL plus HTML, CSS, and JavaScript. Problem sets inspired by the arts, humanities, social sciences, and sciences.
@@ -27,42 +25,42 @@ This course teaches students how to think algorithmically and solve problems eff
 
 ---
 
-##### Week 3 - Algorithms
+##### Week 3 - [Algorithms]()
 
-* [ ] Big 0
-* [ ] Linear Search
-* [ ] Binary Search
-* [ ] Bubble Sort
-* [ ] Selection Sort
-* [ ] Recursion
-* [ ] Merge Sort
-
----
-
-##### Week 4 - Memory
-
-* [ ] Pixel
-* [ ] Hexadecimal
-* [ ] Addresses/Pointers
-* [ ] Strings
-* [ ] Defining Custom Types
-* [ ] Dymanic Memory Allocation
-* [ ] Call Stacks
-* [ ] File Pointers
-* [ ] scanf
-* [ ] Files
-* [ ] JPEG
+* [X] Big 0
+* [X] Linear Search
+* [X] Binary Search
+* [X] Bubble Sort
+* [X] Selection Sort
+* [X] Recursion
+* [X] Merge Sort
 
 ---
 
-##### Week 5 - Data Structures
+##### Week 4 - [Memory]()
 
-* [ ] Structures
-* [ ] Singly-Linked Lists
-* [ ] Doubly-Linked Lists
-* [ ] Hash Tables
-* [ ] Queues
-* [ ] Stacks
+* [X] Pixel
+* [X] Hexadecimal
+* [X] Addresses/Pointers
+* [X] Strings
+* [X] Defining Custom Types
+* [X] Dymanic Memory Allocation
+* [X] Call Stacks
+* [X] File Pointers
+* [X] scanf
+* [X] Files
+* [X] JPEG
+
+---
+
+##### Week 5 - [Data Structures]()
+
+* [X] Structures
+* [X] Singly-Linked Lists
+* [X] Doubly-Linked Lists
+* [X] Hash Tables
+* [X] Queues
+* [X] Stacks
 
 ---
 
