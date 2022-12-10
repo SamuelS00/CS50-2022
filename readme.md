@@ -64,15 +64,15 @@ This course teaches students how to think algorithmically and solve problems eff
 
 ---
 
-##### Week 6 - Python
+##### Week 6 - [Python]()
 
-* [ ] Syntax
-* [ ] Libraries
-* [ ] Input, Conditions
-* [ ] Documantation
-* [ ] Lists, Strings
-* [ ] Algorithms
-* [ ] Files
+* [X] Syntax
+* [X] Libraries
+* [X] Input, Conditions
+* [X] Documantation
+* [X] Lists, Strings
+* [X] Algorithms
+* [X] Files
 
 ---
 
