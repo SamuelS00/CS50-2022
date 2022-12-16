@@ -1,0 +1,105 @@
+-- Keep a log of any SQL queries you execute AS you solve the mystery.
+
+-- log - 1
+-- SELECT description
+--   FROM crime_scene_reports;
+--   WHERE day = 28
+--     AND month = 7
+--     AND year = 2021;
+
+-- log - 2
+-- SELECT name, transcript
+--   FROM interviews
+--   WHERE day = 28
+--     AND month = 7
+--     AND year = 2021;
+
+-- log - 3
+-- SELECT *
+--   FROM bakery_security_logs
+--   WHERE day = 28
+--     AND month = 7
+--     AND year = 2021
+--     AND hour = 10
+--     AND minute > 10
+--     AND minute <= 25
+--     AND activity = "exit";
+
+-- log - 4 -> list of suspects who left the parking lot within 10 minutes of the theft
+-- SELECT *
+--   FROM people
+--   WHERE license_plate IN (
+--   SELECT license_plate
+--     FROM bakery_security_logs
+--     WHERE day = 28
+--         AND month = 7
+--         AND year = 2021
+--         AND hour = 10
+--         AND minute > 10
+--         AND minute <= 25
+--         AND activity = "exit"
+--   );
+
+-- log - 5
+-- SELECT
+--     pc.duration,
+--     caller.name as caller,
+--     caller.passport_number,
+--     caller.license_plate,
+--     receiver.name as receiver,
+--     receiver.passport_number,
+--     receiver.license_plate
+--   FROM phone_calls as pc
+--   JOIN people as caller
+--     ON caller.phone_number = pc.caller
+--   JOIN people as receiver
+--     ON receiver.phone_number = pc.receiver
+--   WHERE pc.day = 28
+--     AND pc.month = 7
+--     AND pc.year = 2021
+--     AND pc.duration <= 60;
+
+-- log - 6 identifying the first flight leaving fiftyville 1 day after the theft
+-- SELECT
+--     fl.id,
+--     origin.full_name AS "airport of origin",
+--     origin.city AS "city airport of origin",
+--     destiny.full_name AS "airport of destiny",
+--     destiny.city AS "city airport of destiny",
+--     fl.year,
+--     fl.month,
+--     fl.day,
+--     fl.hour,
+--     fl.minute
+--   FROM flights AS fl
+--   JOIN airports AS origin
+--     ON origin.id = fl.origin_airport_id
+--   JOIN airports AS destiny
+--     ON destiny.id = fl.destination_airport_id
+--   WHERE fl.year = 2021
+--     AND fl.month = 7
+--     AND fl.day = 29
+--   ORDER BY fl.year, fl.month, fl.day, fl.hour, fl.minute
+--   LIMIT 1;
+
+-- log - 7 identifying passengers the first leaving fifyville 1 day after the theft
+-- SELECT pe.name, pa.seat
+--   FROM passengers as pa
+--   JOIN people AS pe
+--     ON pa.passport_number = pe.passport_number
+--   WHERE flight_id = 36;
+
+-- log - 8 people who transacted at the Leggett Street ATM on the day of the robbery
+-- SELECT pe.name, ba.account_number
+--   FROM bank_accounts AS ba
+--   JOIN people AS pe
+--     ON pe.id = ba.person_id
+--   WHERE account_number IN (
+--     SELECT account_number
+--     FROM atm_transactions
+--     WHERE day = 28
+--       AND month = 07
+--       AND year = 2021
+--       AND atm_location = "Leggett Street"
+--       AND transaction_type = "withdraw"
+--   );

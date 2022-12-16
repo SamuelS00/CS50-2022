@@ -1,0 +1,12 @@
++--------+------+
+|  name  | seat |
++--------+------+
+| Doris  | 2A   |
+| Sofia  | 3B   |
+| Bruce  | 4A   |
+| Edward | 5C   |
+| Kelsey | 6C   |
+| Taylor | 6D   |
+| Kenny  | 7A   |
+| Luca   | 7B   |
++--------+------+
