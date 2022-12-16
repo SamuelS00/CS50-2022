@@ -1,0 +1,28 @@
+robbery day: 28/07/2021
+the theft occurred: 10:15
+the bakery belongs to Emma
+
+crime scene reports
+  Theft of the CS50 duck took place at 10:15am ( hmmm ) -> log2 - interviews - ruth.
+  Three testimonials mention the bakery in the report ( hmmm ) -> log2 - interviews
+  Littering took place at 16:36. ( look )
+
+
+interviews
+  ruth
+    -> 10 minutes after the robbery (10:25), she saw the thief get into a car in the bakery's parking lot. ( hmmm )
+
+  raymond
+    -> call lasting 1 minute
+    -> the thief asked the person on the other end of the line to buy a plane ticket for the first flight out of fiftyville
+
+  eugene
+    -> saw the thief withdraw money from the Leggett Street ATM, he recognized but doesn't know the name ( look )
+    -> Sr. Windibank -> went to france and back, and was upset that eugene went to the ball
+
+  lity
+    -> the children went to paris;
+    -> disappeared with a rooster;
+
+  jose
+    -> King of Bohemia -> my assistance -> the case of the irene adler papers;
