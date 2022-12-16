@@ -1,0 +1,44 @@
+left the parking lot 10 minutes after the theft:
+  Vanessa
+  Barry
+  Iman
+  Sofia
+  Luca
+  Diana
+  * Kelsey
+  * Bruce
+
+Did they make a call on the day of the event with less than 1 minute:
+  Sofia -> Jack
+  Kelsey -> Larry
+  * Bruce -> Robin
+  Kathryn -> Luca
+  * Kelsey -> Melissa
+  Taylor -> James
+  Diana -> Philip
+  Carina -> Jacqueline
+  Kenny -> Doris
+  Benista -> Anna
+
+They were on the first flight out of fiftyville 1 day after the theft:
+  Doris
+  Sofia
+  * Bruce
+  Edward
+  * Kelsey
+  Taylor
+  Kenny
+  Luca
+
+People who withdrew from the Leggett Street ATM on the morning of the robbery:
+  * Bruce
+  Diana
+  Brooke
+  Kenny
+  Iman
+  Luca
+  Taylor
+  Benista
+
+
+As Bruce is involved in all of the investigation's evidence, there is no doubt that he is the thief and Robin is his accomplice.
