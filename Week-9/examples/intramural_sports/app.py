@@ -6,7 +6,7 @@ app = Flask(__name__)
 db = SQL("sqlite:///froshims.db")
 
 
-SPORTS = ["Basketball" "Soccer", "Ultimate Frisbee"]
+SPORTS = ["Basketball", "Soccer", "Ultimate Frisbee"]
 
 
 @app.route("/")
