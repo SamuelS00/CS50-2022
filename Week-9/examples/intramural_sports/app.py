@@ -1,6 +1,9 @@
-from flask import Flask, render_template, request
+from cs50 import SQL
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
+
+db = SQL("sqlite:///froshims.db")
 
 
 SPORTS = ["Basketball" "Soccer", "Ultimate Frisbee"]
@@ -14,7 +17,23 @@ def index():
 @app.route("/register", methods=["POST"])
 def register():
 
-    if not request.form.get("name") or request.form.get("sport") not in SPORTS:
+    # Validate submission
+    name = request.form.get("name")
+    sport = request.form.get("sport")
+    if not name or sport not in SPORTS:
         return render_template("failure.html")
 
-    return render_template("success.html")
+    # Remember registrant
+    db.execute(
+        "INSERT INTO registrants (name, sport) VALUES(?, ?)", name, sport
+    )
+
+    # Confirm registration
+    return redirect("/registrants")
+
+
+@app.route("/registrants")
+def registrants():
+    registrants = db.execute("SELECT * FROM registrants")
+    return render_template("registrants.html", registrants=registrants)
+
