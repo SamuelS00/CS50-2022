@@ -76,39 +76,39 @@ This course teaches students how to think algorithmically and solve problems eff
 
 ---
 
-##### Week 7 - SQL
+##### Week 7 - [SQL]()
 
-* [ ] Data Processing
-* [ ] Relational databases
-* [ ] SQL with Python
-* [ ] IMDb
-
----
-
-##### Week 8 - HTML/CSS/JavaScript
-
-* [ ] Internet Primer
-* [ ] IP
-* [ ] TCP
-* [ ] HTTP
-* [ ] HTML
-* [ ] CSS
-* [ ] JavaScript
-* [ ] DOM
+* [x] Data Processing
+* [x] Relational databases
+* [x] SQL with Python
+* [x] IMDb
 
 ---
 
-##### Week 9 - Flask
+##### Week 8 - [HTML/CSS/JavaScript]()
 
-* [ ] Web programming
-* [ ] Flask
-* [ ] Forms
-* [ ] Layouts
-* [ ] POST
-* [ ] MVC
-* [ ] Frosh IMs
-* [ ] Storing data
-* [ ] Emails
-* [ ] Sessions
-* [ ] Store, shows
-* [ ] Searching
+* [x] Internet Primer
+* [x] IP
+* [x] TCP
+* [x] HTTP
+* [x] HTML
+* [x] CSS
+* [x] JavaScript
+* [x] DOM
+
+---
+
+##### Week 9 - [Flask]()
+
+* [x] Web programming
+* [x] Flask
+* [x] Forms
+* [x] Layouts
+* [x] POST
+* [x] MVC
+* [x] Frosh IMs
+* [x] Storing data
+* [x] Emails
+* [x] Sessions
+* [x] Store, shows
+* [x] Searching
